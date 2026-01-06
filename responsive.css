@@ -1,0 +1,939 @@
+/* ! =========================== LAPTOP DESIGN ========================= */
+/* @media (min-width: 1025px) and (max-width: 1460px) {
+  .container{
+    max-width: 1000px;
+  }
+  .hero p{
+    text-align: justify;
+  }
+  .about-right p{
+    text-align: justify;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed;
+    z-index: 1000;
+  }
+  #Home {
+    height: 90vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-right img {
+    width: 400px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .hero-left p {
+    width: 90%;
+  }
+  .about-left {
+    height: 65%;
+  }
+  .about-right {
+    height: 72%;
+  }
+  .about-top {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .about-top {
+    gap: 2rem;
+  }
+  #About {
+    height: 170vh;
+  }
+  #about-down {
+    height: 75vh;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  #about-down .heading {
+    height: 8%;
+  }
+  .about-sub-down {
+    height: 75%;
+  }
+  .skill-box {
+    border-left: 2px solid gray;
+    margin-left: 2rem;
+  }
+  .skills {
+    width: 400px;
+  }
+  #Services {
+    height: 100vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 250px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  #fotter {
+    height: 65vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+  }
+} */
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
+  .hero p{
+    text-align: justify;
+  }
+  .about-right p{
+    text-align: justify;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed;
+    z-index: 1000;
+  }
+  #Home {
+    height: 90vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-right img {
+    width: 390px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .hero-left p {
+    width: 90%;
+  }
+  .about-left {
+    height: 65%;
+  }
+  .about-right {
+    height: 72%;
+  }
+  .about-top {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .about-top {
+    gap: 2rem;
+  }
+  #About {
+    height: 170vh;
+  }
+  #about-down {
+    height: 75vh;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  #about-down .heading {
+    height: 8%;
+  }
+  .about-sub-down {
+    height: 75%;
+  }
+  .skill-box {
+    border-left: 2px solid gray;
+    margin-left: 2rem;
+  }
+  .skills {
+    width: 400px;
+  }
+  #Services {
+    height: 100vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 250px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  #Contact {
+    height: 75vh;
+  }
+  #fotter {
+    height: 45vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-bottom: 1rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+  .hero p{
+    text-align: justify;
+  }
+  .about-right p{
+    text-align: justify;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed;
+    z-index: 1000;
+  }
+  #Home {
+    height: 60vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-right img {
+    width: 390px;
+  }
+  .hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .hero-left p {
+    width: 90%;
+  }
+  .about-left {
+    height: 65%;
+  }
+  .about-right {
+    height: 72%;
+  }
+  .about-top {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .about-left{
+    height: 60%;
+  }
+  .about-right{
+    height: 65%;
+  }
+  .about-top {
+    gap: 2rem;
+  }
+  #About {
+    height: 130vh;
+    /* border: 1px solid orange; */
+  }
+  .about-top{
+    /* border: 1px solid orange; */
+    height: 65vh;
+  }
+  #about-down {
+    height: 60vh;
+    gap: 1rem;
+    justify-content: space-evenly;
+    /* border: 1px solid royalblue; */
+  }
+  #about-down .heading {
+    height: 8%;
+  }
+  .about-sub-down {
+    height: 75%;
+  }
+  .skill-box {
+    border-left: 2px solid gray;
+    margin-left: 2rem;
+  }
+  .skills {
+    width: 400px;
+  }
+  #Services {
+    height: 70vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 250px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  #portfolio{
+    border: 1px solid royalblue;
+  }
+  .portfolio-content{
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+  }
+  .portfolio-heading{
+    /* border: 1px solid crimson; */
+    margin: 5rem;
+  }
+  #Contact {
+    height: 50vh;
+  }
+  #fotter {
+    height: 45vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-top: 2rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+}
+
+@media (min-width: 697px) and (max-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed; 
+    z-index: 1000;
+  }
+  .hero p{
+    text-align: justify;
+  }
+  .about-right p{
+    text-align: justify;
+  }
+  #Home {
+    height: 90vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-left {
+    width: 60%;
+    height: 60%;
+  }
+  .hero-left h1 {
+    font-size: 2.3rem;
+  }
+  .hero-left p {
+    width: 90%;
+  }
+  .hero-right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-right img {
+    width: 350px;
+  }
+  .about-top {
+    gap: 2rem;
+  }
+  .about-right {
+    height: 80%;
+  }
+  .about-left {
+    height: 70%;
+  }
+  #About {
+    height: 170vh;
+  }
+  #about-down {
+    height: 75vh;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  .about-sub-down {
+    padding: 0;
+    height: 70%;
+  }
+  .about-down-right {
+    width: 50%;
+  }
+  #Services {
+    height: 100vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 250px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  .portfolio-box {
+    width: 250px;
+    height: 200px;
+  }
+
+  .portfolio-content .heading {
+    width: 100%;
+    height: 10%;
+    padding-top: 2.5rem;
+  }
+  #Contact {
+    height: 75vh;
+  }
+  #fotter {
+    height: 45vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-top: 1.5rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-top .clm1 {
+    display: none;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 696px) {
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed; 
+    z-index: 1000;
+  }
+  .container {
+    max-width: 450px;
+  }
+  #Home {
+    height: 100vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-left {
+    height: 70%;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .hero-left p {
+    text-align: justify;
+  }
+  .hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+  .hero-right img {
+    width: 470px;
+  }
+  h1 {
+    font-size: 2.1rem;
+    width: 100%;
+  }
+  #About {
+    height: 270vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .about-top {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  .about-right {
+    width: 100%;
+    height: 80%;
+  }
+  .about-right p {
+    text-align: justify;
+  }
+  .about-left {
+    width: 100%;
+    height: 70%;
+    background-image: url(Images/about-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-top {
+    height: 40%;
+  }
+  #about-down {
+    height: 45%;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-sub-down {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  .about-sub-down {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-down-left {
+    margin-bottom: 30rem;
+  }
+  .skill-box {
+    border-left: none;
+    margin-left: 10px;
+    margin-bottom: 75rem;
+  }
+  #Services {
+    height: 100vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 200px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+
+  #Portfolio {
+    height: 135vh;
+  }
+  #Contact {
+    height: 60vh;
+  }
+  #fotter {
+    height: 45vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-top .clm1 {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 478px) {
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed; 
+    z-index: 1000;
+  }
+  .container {
+    max-width: 350px;
+  }
+  #Home {
+    height: 110vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-right{
+    padding-top: 2rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-left {
+    height: 60%;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .hero-left p {
+    text-align: justify;
+  }
+  .hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    padding-bottom: 0;
+    margin-top: 4rem;
+  }
+  .hero-right img {
+    width: 400px;
+  }
+  h1 {
+    font-size: 2.1rem;
+    width: 100%;
+  }
+  #About {
+    height: 250vh;
+    /* border: 1px solid orange; */
+  }
+  .about-top {
+    flex-direction: column-reverse;
+    height: 120vh;
+    /* border: 1px solid royalblue; */
+  }
+  #about-down {
+    /* border: 1px solid crimson; */
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+;
+  }
+  
+  .about-right {
+    width: 100%;
+    height: 80%;
+  }
+  .about-right p {
+    text-align: justify;
+  }
+  .about-left {
+    width: 400px;
+    height: 50%;
+    background-image: url(Images/about-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-sub-down {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-down-left {
+    margin-bottom: 30rem;
+  }
+  .skill-box {
+    border-left: none;
+    margin-left: 4rem;
+    margin-bottom: 75rem;
+  }
+  #Services {
+    height: 100vh;
+  }
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 200px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  #Portfolio {
+    height: 220vh;
+  }
+  .portfolio-content{
+    padding: 2rem 0;
+  }
+  #Contact {
+    height: 70vh;
+  }
+  .contact-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #fotter {
+    height: 45vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-top .clm1 {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg);
+    position: fixed; 
+    z-index: 1000;
+  }
+  .container {
+    max-width: 300px;
+  }
+  #Home {
+    height: 110vh;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero-right{
+    padding-top: 2rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-left {
+    height: 70%;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .hero-left p {
+    text-align: justify;
+  }
+  .hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+  .hero-right img {
+    width: 350px;
+  }
+  h1 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  #About {
+    height: 270vh;
+  }
+  .about-top {
+    flex-direction: column-reverse;
+    height: 135vh;
+  }
+  .about-right {
+    width: 100%;
+    height: 80%;
+  }
+  .about-right p {
+    text-align: justify;
+  }
+  .about-left {
+    width: 400px;
+    height: 40%;
+    background-image: url(Images/about-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #about-down {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .about-sub-down {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-down-left {
+    margin-bottom: 30rem;
+  }
+  
+  .skill-box {
+    width: 395px;
+  }
+  .skill-box {
+    border-left: none;
+    margin-left: 4rem;
+    margin-bottom: 75rem;
+    padding: 1rem;
+  }
+
+ #Services{
+    height: 150vh;
+  }
+ 
+  #Services .section-heading {
+    height: 6%;
+  }
+  .service-content {
+    justify-content: space-around;
+  }
+  .service-box {
+    width: 280px;
+    height: 200px;
+  }
+  .services-area {
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  #Portfolio {
+    height: 300vh;
+    /* border: 1px solid orange; */
+  }
+  .portfolio-heading{
+    margin-top: 3.5rem;
+    /* border: 1px solid orange; */
+  }
+  #Contact {
+    height: 90vh;
+  }
+  #fotter {
+    height: 55vh;
+  }
+  .fotter-content-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    height: 65%;
+    padding-bottom: 5rem;
+  }
+  .fotter-content-top h4 {
+    font-size: 1.3rem;
+  }
+  .fotter-content-bottom {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-bottom i {
+    font-size: 2.3rem;
+    padding: 0 0.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+  }
+  .fotter-content-top .clm1 {
+    display: none;
+  }
+}
